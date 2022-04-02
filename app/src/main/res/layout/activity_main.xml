@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="CÔNG CỤ TÍNH LÃI TIỀN GỬI"
+        android:textColor="#4C469C"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:text="Số tiền gửi*"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/TextNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="đ"
+        android:textColor="#4C469C"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="130dp"
+        android:text="Lãi suất gửi*"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/TextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:textColor="#4C469C"
+        android:gravity="right"
+        android:hint="%/năm"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="210dp"
+        android:text="Kỳ hạn gửi*"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/TextNumber3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:textColor="#4C469C"
+        android:gravity="right"
+        android:hint="%/năm"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/btnbackActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextNumber3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="Xem kết quả"
+        android:background="@drawable/botron"
+        />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineSpotShadowColor="#655757">
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:text="Số tiền lãi nhận được"
+        android:textSize="20sp"
+        android:textColor="#9A9AA7" />
+
+    <TextView
+        android:id="@+id/output1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:textColor="#4C469C"
+        android:text="out"
+        android:textSize="25sp"
+/>
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/output1"
+        android:text="Tổng số tiền nhận được khi đến hạn"
+        android:textColor="#9A9AA7"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/output2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="out"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/TextView2"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColor="#4C469C"
+        android:textSize="25sp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/output2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="#D6D7D7"
+        android:text="Take a picture"
+        android:textColor="@color/black"    />
+</RelativeLayout>
